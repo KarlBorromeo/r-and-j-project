@@ -101,23 +101,31 @@ export default {
 </script>
 
 <style scoped>
+
+article{
+   padding: 0 1rem;
+   overflow: auto;
+}
 td{
    text-align: center;
 }
 table{
    width: 100%;
-   /* border: 1px solid black; */
+   border: 1px solid black;
+   min-width: 557px;
+   table-layout: fixed;
 }
 .form-section{
   padding: .5rem 1rem;
-  display: flex;
+  /* display: flex;
   align-items: center;
-  gap: .5rem;
+  gap: .5rem; */
   background-color: white;
   border-radius: 5px;
   margin-bottom: 1rem;
 }
 input{
+  display: block;
   border-radius: 5px;
   outline: none;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -129,9 +137,7 @@ input{
 .form-section label{
   min-width: 210px;
 }
-article{
-   padding: 0 1rem;
-}
+
 .account-details-cont{
    /* border:1px solid black; */
    width: 90%;

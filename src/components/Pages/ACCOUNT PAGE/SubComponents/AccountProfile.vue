@@ -470,16 +470,12 @@ img{
 input{
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  /* outline: none; */
-  /* border: none; */
+  display: block;
   padding: 5px;
   width: 100%;
 }
 .form-section{
   padding: .5rem 1rem;
-  display: flex;
-  align-items: center;
-  gap: .5rem;
   background-color: white;
   margin-bottom: 1rem;
   border-radius: 5px;

@@ -1,5 +1,5 @@
 import axios from 'axios'
-const BASE_URL = process.env.VUE_APP_KEY;
+const BASE_URL = process.env.VUE_APP_API_KEY;
 
 export const login = async (credentials) => {
     console.log('login executed')

@@ -284,4 +284,15 @@ button:active{
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+@media (max-width: 1000px){
+  .details-nav{
+    display: block;
+    height: max-content;
+  }
+  .details-nav .section-left{
+    width: 100%;
+    flex-direction: row;
+  }
+}
 </style>
